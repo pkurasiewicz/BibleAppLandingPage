@@ -211,19 +211,20 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  padding: 20px 60px;
-  color: black;
+  padding: 10px 50px;
+  color: white;
   text-align: center;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color: white;
+  background-color: #646FF7;
   border-radius: 4px;
   cursor: pointer;
   box-sizing: border-box;
-  transition: all 0.2s ease; }
+  transition: all 0.2s ease;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.3); }
   .button:hover, .button:active, .button:focus,
   button:hover,
   button:active,
@@ -246,7 +247,7 @@ a {
   text-decoration: none;
   outline: 0; }
   a:hover, a:focus {
-    color: #F012BE; }
+    color: black; }
 
 ::selection {
   background: #FFF498; }
@@ -326,6 +327,42 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+#reader {
+  margin-top: 70px; }
+
+.readerLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.read {
+  padding-left: 150px; }
+  .read p {
+    font-size: 16px; }
+  .read h2 {
+    font-weight: lighter;
+    font-family: inherit;
+    margin-bottom: 20px;
+    font-size: 55px; }
+
+#reader1 {
+  margin-top: 70px; }
+
+.readerLayout1 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.read1 {
+  padding-left: 150px; }
+  .read1 p {
+    font-size: 16px; }
+  .read1 h2 {
+    font-weight: lighter;
+    font-family: inherit;
+    margin-bottom: 20px;
+    font-size: 55px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -348,18 +385,21 @@ hr {
   background-size: cover;
   height: 1150px;
   color: white;
-  text-align: center;
-  overflow: auto; }
+  text-align: center; }
   #header img {
     max-width: 400px;
     width: 100%; }
   #header article {
     width: 60%;
     margin: 0 auto;
-    padding-top: 30px; }
+    padding-top: 10px; }
   #header h1 {
     margin-bottom: 20px;
-    color: white; }
+    color: white;
+    font-weight: lighter;
+    font-family: inherit; }
+  #header p {
+    font-size: 20px; }
 
 .main-nav {
   display: flex;
