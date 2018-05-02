@@ -363,6 +363,32 @@ hr {
     margin-bottom: 20px;
     font-size: 55px; }
 
+#features {
+  margin: 30px 0;
+  background: url("../img/featuresBack1.png") no-repeat;
+  background-size: cover;
+  height: 400px;
+  color: white;
+  text-align: center; }
+  #features h1 {
+    color: white;
+    font-weight: lighter;
+    font-family: inherit;
+    font-size: 45px;
+    margin: 50px 0; }
+
+.cards {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 100px; }
+
+h3 {
+  color: white; }
+
+.feature-card p {
+  font-size: 15px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -385,7 +411,8 @@ hr {
   background-size: cover;
   height: 1150px;
   color: white;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
   #header img {
     max-width: 400px;
     width: 100%; }
