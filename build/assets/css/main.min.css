@@ -220,7 +220,7 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: #646FF7;
-  border-radius: 4px;
+  border-radius: 44px;
   cursor: pointer;
   box-sizing: border-box;
   transition: all 0.2s ease;
@@ -365,7 +365,8 @@ hr {
 
 #features {
   margin: 30px 0;
-  background: url("../img/featuresBack1.png") no-repeat;
+  background: #5b75f7;
+  background: linear-gradient(90deg, #5b75f7 0%, #a24ef7 100%);
   background-size: cover;
   height: 400px;
   color: white;
@@ -388,6 +389,22 @@ h3 {
 
 .feature-card p {
   font-size: 15px; }
+
+#presentation {
+  text-align: center;
+  margin-top: 50px; }
+
+h2 {
+  font-weight: lighter;
+  font-family: inherit;
+  margin-bottom: 25px;
+  font-size: 55px; }
+
+p {
+  width: 100%;
+  max-width: 650px;
+  margin: 30px auto;
+  font-size: 16px; }
 
 .flex-video {
   height: 0;
@@ -438,7 +455,7 @@ h3 {
     color: white;
     display: block;
     border-radius: 4px;
-    padding: 5px 50px;
+    padding: 7px 45px;
     text-decoration: none;
     font-weight: 900;
     text-transform: uppercase; }
@@ -452,4 +469,5 @@ a.download {
   background: white;
   color: #C122FA;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.3);
-  margin-left: 25px; }
+  margin-left: 25px;
+  border-radius: 44px; }
