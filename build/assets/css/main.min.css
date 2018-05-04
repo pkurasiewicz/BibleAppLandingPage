@@ -385,7 +385,11 @@ hr {
   grid-gap: 100px; }
 
 h3 {
-  color: white; }
+  color: white;
+  margin-bottom: -15px; }
+
+.feature-card img {
+  margin-bottom: -15px; }
 
 .feature-card p {
   font-size: 15px; }
@@ -405,6 +409,39 @@ p {
   max-width: 650px;
   margin: 30px auto;
   font-size: 16px; }
+
+#footer {
+  margin-top: 50px;
+  background: #a24ef7;
+  background: linear-gradient(77deg, #a24ef7 0%, #5b75f7 100%);
+  background-size: cover;
+  height: 180px;
+  color: white;
+  text-align: center; }
+
+article {
+  margin-top: 10px; }
+  article p {
+    margin-top: 7px;
+    margin-bottom: auto;
+    font-size: 12px; }
+
+.main-footer {
+  display: inline-flex;
+  margin-top: 40px;
+  padding-right: 55px; }
+  .main-footer li {
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .main-footer a {
+    color: white;
+    display: block;
+    border-radius: 4px;
+    padding: 7px 45px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase; }
 
 .flex-video {
   height: 0;
