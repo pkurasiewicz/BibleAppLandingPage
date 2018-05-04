@@ -425,6 +425,10 @@ article {
     margin-top: 7px;
     margin-bottom: auto;
     font-size: 12px; }
+    article p a:hover {
+      color: white; }
+    article p a {
+      color: pink; }
 
 .main-footer {
   display: inline-flex;
