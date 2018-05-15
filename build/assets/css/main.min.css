@@ -369,8 +369,7 @@ a.download {
   @media only screen and (max-width: 680px) {
     .readerLayout {
       display: block;
-      padding-left: 125px;
-      padding-right: 150px; } }
+      width: 100%; } }
 
 .read {
   padding-left: 150px; }
@@ -395,15 +394,10 @@ a.download {
   @media only screen and (max-width: 680px) {
     .readerLayout1 {
       display: block;
-      padding-left: 50px;
-      padding-right: 150px; } }
+      width: 100%; } }
 
 .read1 {
   padding-left: 150px; }
-  @media only screen and (max-width: 680px) {
-    .read1 {
-      margin-right: 60px;
-      margin-left: 15px; } }
   .read1 p {
     font-size: 16px; }
   .read1 h2 {
@@ -429,6 +423,9 @@ a.download {
     font-family: inherit;
     font-size: 45px;
     margin: 50px 0; }
+    @media only screen and (max-width: 680px) {
+      #features h1 {
+        font-size: 30px; } }
 
 .cards {
   margin-top: 50px;
@@ -437,7 +434,8 @@ a.download {
   grid-gap: 100px; }
   @media only screen and (max-width: 680px) {
     .cards {
-      grid-template-columns: repeat(2, auto); } }
+      grid-template-columns: repeat(2, auto);
+      grid-gap: 5px; } }
 
 h3 {
   color: white;
@@ -501,6 +499,12 @@ article {
     list-style: none;
     margin-left: 15px;
     margin-right: 15px; }
+    @media only screen and (max-width: 680px) {
+      .main-footer li {
+        font-size: 10px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding: none; } }
   .main-footer a {
     color: white;
     display: block;
@@ -553,9 +557,9 @@ article {
     font-family: inherit; }
   @media only screen and (max-width: 680px) {
     #header {
-      margin-top: 60px; } }
+      margin-top: 70px; } }
   #header p {
     font-size: 20px; }
-  @media only screen and (max-width: 680px) {
-    #header {
-      margin-top: 60px; } }
+    @media only screen and (max-width: 680px) {
+      #header p {
+        margin-top: 20px; } }
