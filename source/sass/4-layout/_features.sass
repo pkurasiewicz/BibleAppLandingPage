@@ -6,6 +6,8 @@
   height: 400px
   color: white
   text-align: center
+  @media only screen and (max-width: 680px)
+    height: 650px
   h1
     color: white
     font-weight: lighter
@@ -19,6 +21,12 @@
   display: grid
   grid-template-columns: repeat(4, auto)
   grid-gap: 100px
+  @media only screen and (max-width: 680px)
+    grid-template-columns: repeat(2, auto)
+
+
+
+
 
 
 
@@ -31,8 +39,6 @@ h3
 
   img
     margin-bottom: -15px
-
-
 
   p
     font-size: 15px

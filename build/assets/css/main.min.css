@@ -198,7 +198,7 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 .wrapper {
-  width: 100%;
+  width: 90%;
   max-width: 1100px;
   margin: 0 auto; }
 
@@ -358,14 +358,25 @@ a.download {
 
 #reader {
   margin-top: 70px; }
+  @media only screen and (max-width: 680px) {
+    #reader {
+      margin-top: -20px; } }
 
 .readerLayout {
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media only screen and (max-width: 680px) {
+    .readerLayout {
+      display: block;
+      padding-left: 125px;
+      padding-right: 150px; } }
 
 .read {
   padding-left: 150px; }
+  @media only screen and (max-width: 680px) {
+    .read {
+      margin-left: -60px; } }
   .read p {
     font-size: 16px; }
   .read h2 {
@@ -381,9 +392,18 @@ a.download {
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media only screen and (max-width: 680px) {
+    .readerLayout1 {
+      display: block;
+      padding-left: 50px;
+      padding-right: 150px; } }
 
 .read1 {
   padding-left: 150px; }
+  @media only screen and (max-width: 680px) {
+    .read1 {
+      margin-right: 60px;
+      margin-left: 15px; } }
   .read1 p {
     font-size: 16px; }
   .read1 h2 {
@@ -400,6 +420,9 @@ a.download {
   height: 400px;
   color: white;
   text-align: center; }
+  @media only screen and (max-width: 680px) {
+    #features {
+      height: 650px; } }
   #features h1 {
     color: white;
     font-weight: lighter;
@@ -412,6 +435,9 @@ a.download {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 100px; }
+  @media only screen and (max-width: 680px) {
+    .cards {
+      grid-template-columns: repeat(2, auto); } }
 
 h3 {
   color: white;
@@ -426,6 +452,10 @@ h3 {
 #presentation {
   text-align: center;
   margin-top: 50px; }
+
+@media only screen and (max-width: 680px) {
+  .presenstationLayout img {
+    width: 100%; } }
 
 h2 {
   font-weight: lighter;
@@ -463,6 +493,10 @@ article {
   display: inline-flex;
   margin-top: 40px;
   padding-right: 55px; }
+  @media only screen and (max-width: 680px) {
+    .main-footer {
+      padding-left: 10px;
+      padding-right: 10px; } }
   .main-footer li {
     list-style: none;
     margin-left: 15px;
@@ -502,6 +536,9 @@ article {
   color: white;
   text-align: center;
   overflow: hidden; }
+  @media only screen and (max-width: 680px) {
+    #header {
+      height: 1150px; } }
   #header img {
     max-width: 400px;
     width: 100%; }
@@ -514,5 +551,11 @@ article {
     color: white;
     font-weight: lighter;
     font-family: inherit; }
+  @media only screen and (max-width: 680px) {
+    #header {
+      margin-top: 60px; } }
   #header p {
     font-size: 20px; }
+  @media only screen and (max-width: 680px) {
+    #header {
+      margin-top: 60px; } }
